@@ -1,21 +1,16 @@
 import { css, cx } from '@emotion/css';
 import { FC } from 'react';
 
-import { colorManipulator } from '@grafana/data';
-import { useTheme2 } from '@grafana/ui';
-
 export interface BrandComponentProps {
   className?: string;
   children?: JSX.Element | JSX.Element[];
 }
 
 export const LoginLogo: FC<BrandComponentProps & { logo?: string }> = ({ className, logo }) => {
-  return <img className={className} src={`${logo ? logo : 'public/img/grafana_icon.svg'}`} alt="Grafana" />;
+  return <img className={className} src={`${logo ? logo : 'public/img/custom-logo.svg'}`} alt="Logo" />;
 };
 
 const LoginBackground: FC<BrandComponentProps> = ({ className, children }) => {
-  const theme = useTheme2();
-
   const background = css({
     '&:before': {
       content: '""',
@@ -24,18 +19,9 @@ const LoginBackground: FC<BrandComponentProps> = ({ className, children }) => {
       right: 0,
       bottom: 0,
       top: 0,
-      background: `url(public/img/g8_login_${theme.isDark ? 'dark' : 'light'}.svg)`,
-      backgroundPosition: 'top center',
-      backgroundSize: 'auto',
-      backgroundRepeat: 'no-repeat',
-
-      opacity: 0,
+      background: '#ffffff',
+      opacity: 1,
       transition: 'opacity 3s ease-in-out',
-
-      [theme.breakpoints.up('md')]: {
-        backgroundPosition: 'center',
-        backgroundSize: 'cover',
-      },
     },
   });
 
@@ -43,13 +29,12 @@ const LoginBackground: FC<BrandComponentProps> = ({ className, children }) => {
 };
 
 const MenuLogo: FC<BrandComponentProps> = ({ className }) => {
-  return <img className={className} src="public/img/grafana_icon.svg" alt="Grafana" />;
+  return <img className={className} src="public/img/custom-logo.svg" alt="Logo" />;
 };
 
 const LoginBoxBackground = () => {
-  const theme = useTheme2();
   return css({
-    background: colorManipulator.alpha(theme.colors.background.primary, 0.7),
+    background: '#ffffff',
     backgroundSize: 'cover',
   });
 };
@@ -59,10 +44,10 @@ export class Branding {
   static LoginBackground = LoginBackground;
   static MenuLogo = MenuLogo;
   static LoginBoxBackground = LoginBoxBackground;
-  static AppTitle = 'Grafana';
-  static LoginTitle = 'Welcome to Grafana';
-  static HideEdition = false;
+  static AppTitle = '监控平台';
+  static LoginTitle = '欢迎使用监控平台';
+  static HideEdition = true;
   static GetLoginSubTitle = (): null | string => {
-    return null;
+    return '登录以继续';
   };
 }
