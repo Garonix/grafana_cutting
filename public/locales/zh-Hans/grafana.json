@@ -30,317 +30,317 @@
   },
   "action-editor": {
     "modal": {
-      "cancel-button": "",
-      "save-button": ""
+      "cancel-button": "取消",
+      "save-button": "保存"
     }
   },
   "admin": {
     "anon-users": {
-      "not-found": ""
+      "not-found": "未找到匿名用户"
     },
     "edit-org": {
-      "access-denied": "",
-      "heading": "",
-      "update-button": "",
-      "users-heading": ""
+      "access-denied": "访问被拒绝",
+      "heading": "编辑组织",
+      "update-button": "更新",
+      "users-heading": "用户"
     },
     "feature-toggles": {
-      "sub-title": ""
+      "sub-title": "功能开关"
     },
     "get-enterprise": {
-      "contact-us": "",
-      "description": "",
-      "features-heading": "",
-      "included-description": "",
-      "included-heading": "",
-      "service-title": "",
-      "team-sync-details": "",
-      "title": ""
+      "contact-us": "联系我们",
+      "description": "了解更多关于 Grafana Enterprise 的信息",
+      "features-heading": "企业版功能",
+      "included-description": "您的 Grafana Enterprise 许可证包含：",
+      "included-heading": "包含的功能",
+      "service-title": "企业服务",
+      "team-sync-details": "同步团队成员",
+      "title": "获取 Grafana Enterprise"
     },
     "ldap": {
-      "test-mapping-heading": "",
-      "test-mapping-run-button": ""
+      "test-mapping-heading": "测试 LDAP 映射",
+      "test-mapping-run-button": "运行测试"
     },
     "ldap-permissions": {
-      "active": "",
-      "admin": "",
-      "inactive": ""
+      "active": "活动",
+      "admin": "管理员",
+      "inactive": "非活动"
     },
     "ldap-status": {
-      "title": ""
+      "title": "LDAP 状态"
     },
     "ldap-sync": {
-      "debug-button": "",
-      "external-sync-description": "",
-      "external-sync-label": "",
-      "next-sync-label": "",
-      "not-enabled": "",
-      "sync-button": "",
-      "title": ""
+      "debug-button": "调试",
+      "external-sync-description": "外部同步",
+      "external-sync-label": "外部同步",
+      "next-sync-label": "下次同步",
+      "not-enabled": "未启用",
+      "sync-button": "同步",
+      "title": "LDAP 同步"
     },
     "ldap-sync-info": {
-      "title": ""
+      "title": "LDAP 同步信息"
     },
     "ldap-user-groups": {
-      "no-org-found": ""
+      "no-org-found": "未找到组织"
     },
     "ldap-user-info": {
-      "no-team": ""
+      "no-team": "未找到团队"
     },
     "org-uers": {
-      "last-seen-never": ""
+      "last-seen-never": "从未见过"
     },
     "org-users": {
-      "not-editable": ""
+      "not-editable": "不可编辑"
     },
     "orgs": {
-      "delete-body": "",
-      "id-header": "",
-      "name-header": "",
-      "new-org-button": ""
+      "delete-body": "删除组织将删除所有关联的仪表板、数据源、警报规则和用户。",
+      "id-header": "ID",
+      "name-header": "名称",
+      "new-org-button": "新组织"
     },
     "server-settings": {
-      "alerts-button": "",
-      "dashboards-button": "",
-      "data-sources-button": "",
-      "not-found": "",
-      "title": "",
-      "users-button": ""
+      "alerts-button": "警报",
+      "dashboards-button": "仪表板",
+      "data-sources-button": "数据源",
+      "not-found": "未找到",
+      "title": "服务器设置",
+      "users-button": "用户"
     },
     "settings": {
-      "info-description": ""
+      "info-description": "服务器设置"
     },
     "upgrade-info": {
-      "title": ""
+      "title": "升级信息"
     },
     "user-orgs": {
-      "add-button": "",
-      "change-role-button": "",
-      "external-user-tooltip": "",
-      "remove-button": "",
-      "role-not-editable": "",
-      "title": ""
+      "add-button": "添加",
+      "change-role-button": "更改角色",
+      "external-user-tooltip": "外部用户",
+      "remove-button": "删除",
+      "role-not-editable": "角色不可编辑",
+      "title": "组织"
     },
     "user-orgs-modal": {
-      "add-button": "",
-      "cancel-button": ""
+      "add-button": "添加",
+      "cancel-button": "取消"
     },
     "user-permissions": {
-      "change-button": "",
-      "grafana-admin-key": "",
-      "grafana-admin-no": "",
-      "grafana-admin-yes": "",
-      "title": ""
+      "change-button": "更改",
+      "grafana-admin-key": "Grafana 管理员密钥",
+      "grafana-admin-no": "否",
+      "grafana-admin-yes": "是",
+      "title": "用户权限"
     },
     "user-profile": {
-      "delete-button": "",
-      "disable-button": "",
-      "edit-button": "",
-      "enable-button": "",
-      "title": ""
+      "delete-button": "删除",
+      "disable-button": "禁用",
+      "edit-button": "编辑",
+      "enable-button": "启用",
+      "title": "用户配置文件"
     },
     "user-sessions": {
-      "browser-column": "",
-      "force-logout-all-button": "",
-      "force-logout-button": "",
-      "ip-column": "",
-      "last-seen-column": "",
-      "logged-on-column": "",
-      "title": ""
+      "browser-column": "浏览器",
+      "force-logout-all-button": "强制注销所有",
+      "force-logout-button": "强制注销",
+      "ip-column": "IP",
+      "last-seen-column": "最后登录",
+      "logged-on-column": "已登录",
+      "title": "用户会话"
     },
     "users-create": {
-      "create-button": ""
+      "create-button": "创建"
     },
     "users-list": {
-      "create-button": ""
+      "create-button": "创建"
     },
     "users-table": {
-      "last-seen-never": "",
-      "no-licensed-roles": ""
+      "last-seen-never": "从未见过",
+      "no-licensed-roles": "没有授权角色"
     }
   },
   "alert-labels": {
     "button": {
-      "hide": "",
+      "hide": "隐藏",
       "show": {
-        "tooltip": ""
+        "tooltip": "显示"
       }
     }
   },
   "alerting": {
     "alert": {
-      "alert-state": "",
-      "annotations": "",
-      "evaluation": "",
-      "evaluation-paused": "",
-      "evaluation-paused-description": "",
-      "last-evaluated": "",
-      "last-evaluation-duration": "",
-      "last-updated-at": "",
-      "last-updated-by": "",
-      "no-annotations": "",
-      "pending-period": "",
-      "rule": "",
-      "rule-identifier": "",
-      "rule-type": "",
-      "state-error-timeout": "",
-      "state-no-data": ""
+      "alert-state": "警报状态",
+      "annotations": "注释",
+      "evaluation": "评估",
+      "evaluation-paused": "评估已暂停",
+      "evaluation-paused-description": "警报规则评估已暂停",
+      "last-evaluated": "最后评估时间",
+      "last-evaluation-duration": "最后评估持续时间",
+      "last-updated-at": "最后更新时间",
+      "last-updated-by": "最后更新者",
+      "no-annotations": "无注释",
+      "pending-period": "等待期",
+      "rule": "规则",
+      "rule-identifier": "规则标识符",
+      "rule-type": "规则类型",
+      "state-error-timeout": "错误：超时",
+      "state-no-data": "无数据"
     },
     "alert-recording-rule-form": {
       "evaluation-behaviour": {
         "description": {
-          "text": ""
+          "text": "警报规则评估行为"
         }
       }
     },
     "alert-rules": {
-      "firing-for": "",
-      "next-evaluation": "",
-      "next-evaluation-in": "",
-      "rule-definition": ""
+      "firing-for": "触发中",
+      "next-evaluation": "下次评估",
+      "next-evaluation-in": "下次评估在",
+      "rule-definition": "规则定义"
     },
     "alertform": {
       "labels": {
-        "alerting": "",
-        "recording": ""
+        "alerting": "警报",
+        "recording": "记录"
       }
     },
     "alertVersionHistory": {
-      "alerting": "",
-      "alerting-change-description": "",
-      "annotations": "",
-      "compare": "",
-      "compare-with-latest": "",
-      "compareVersions": "",
-      "comparing-versions": "",
-      "condition": "",
-      "contactPointRouting": "",
-      "description": "",
-      "errorloading": "",
-      "execErrorState": "",
-      "intervalSeconds": "",
-      "labels": "",
-      "latest": "",
-      "name": "",
-      "namespace_uid": "",
-      "noDataState": "",
-      "noVersionsFound": "",
-      "paused": "",
-      "pendingPeriod": "",
-      "provisioning": "",
-      "provisioning-change-description": "",
-      "queryAndAlertCondition": "",
-      "restore": "",
-      "restore-manually": "",
+      "alerting": "警报",
+      "alerting-change-description": "警报规则评估行为",
+      "annotations": "注释",
+      "compare": "比较",
+      "compare-with-latest": "与最新版本比较",
+      "compareVersions": "比较版本",
+      "comparing-versions": "比较版本",
+      "condition": "条件",
+      "contactPointRouting": "联络点路由",
+      "description": "描述",
+      "errorloading": "加载错误",
+      "execErrorState": "执行错误状态",
+      "intervalSeconds": "间隔秒",
+      "labels": "标签",
+      "latest": "最新",
+      "name": "名称",
+      "namespace_uid": "命名空间UID",
+      "noDataState": "无数据状态",
+      "noVersionsFound": "未找到版本",
+      "paused": "暂停",
+      "pendingPeriod": "等待期",
+      "provisioning": "配置",
+      "provisioning-change-description": "配置更改",
+      "queryAndAlertCondition": "查询和警报条件",
+      "restore": "恢复",
+      "restore-manually": "手动恢复",
       "restore-modal": {
-        "body": "",
-        "confirm": "",
-        "error": "",
-        "summary": "",
-        "title": ""
+        "body": "恢复警报规则将使用新版本替换当前版本。",
+        "confirm": "恢复",
+        "error": "恢复失败",
+        "summary": "恢复警报规则",
+        "title": "恢复警报规则"
       },
-      "restore-version": "",
-      "rule_group": "",
-      "unknown": "",
-      "unknown-change-description": "",
-      "user-id": "",
-      "warning-restore-manually": "",
-      "warning-restore-manually-title": ""
+      "restore-version": "恢复版本",
+      "rule_group": "规则组",
+      "unknown": "未知",
+      "unknown-change-description": "未知更改描述",
+      "user-id": "用户ID",
+      "warning-restore-manually": "恢复警报规则将使用新版本替换当前版本。",
+      "warning-restore-manually-title": "恢复警报规则"
     },
     "annotations": {
-      "description": "",
-      "title": ""
+      "description": "注释",
+      "title": "注释"
     },
     "central-alert-history": {
       "details": {
-        "error": "",
+        "error": "错误",
         "header": {
-          "alert-rule": "",
-          "instance": "",
-          "state": "",
-          "timestamp": ""
+          "alert-rule": "警报规则",
+          "instance": "实例",
+          "state": "状态",
+          "timestamp": "时间戳"
         },
-        "loading": "",
-        "no-recognized-state": "",
-        "no-values": "",
-        "not-found": "",
-        "number-transitions": "",
+        "loading": "加载中",
+        "no-recognized-state": "未识别状态",
+        "no-values": "无值",
+        "not-found": "未找到",
+        "number-transitions": "转换次数",
         "state": {
-          "alerting": "",
-          "error": "",
-          "no-data": "",
-          "normal": "",
-          "pending": ""
+          "alerting": "警报",
+          "error": "错误",
+          "no-data": "无数据",
+          "normal": "正常",
+          "pending": "等待"
         },
-        "state-transitions": "",
-        "unknown-event-state": "",
-        "unknown-rule": "",
-        "value-in-transition": ""
+        "state-transitions": "状态转换",
+        "unknown-event-state": "未知事件状态",
+        "unknown-rule": "未知规则",
+        "value-in-transition": "转换中值"
       },
-      "error": "",
+      "error": "错误",
       "filter": {
-        "clear": "",
+        "clear": "清除",
         "info": {
-          "label1": "",
-          "label2": "",
-          "label3": "",
-          "label4": ""
+          "label1": "警报规则",
+          "label2": "实例",
+          "label3": "状态",
+          "label4": "时间戳"
         }
       },
-      "filterBy": "",
+      "filterBy": "按",
       "too-many-events": {
-        "text": "",
-        "title": ""
+        "text": "事件太多",
+        "title": "事件太多"
       }
     },
     "common": {
-      "cancel": "",
-      "clear-filters": "",
-      "delete": "",
-      "edit": "",
-      "export": "",
-      "export-all": "",
-      "loading": "",
-      "search-by-matchers": "",
+      "cancel": "取消",
+      "clear-filters": "清除过滤器",
+      "delete": "删除",
+      "edit": "编辑",
+      "export": "导出",
+      "export-all": "导出所有",
+      "loading": "加载中",
+      "search-by-matchers": "按匹配器搜索",
       "titles": {
-        "notification-templates": ""
+        "notification-templates": "通知模板"
       },
-      "view": ""
+      "view": "查看"
     },
     "contact-points": {
-      "create": "",
-      "custom-template-value": "",
+      "create": "创建",
+      "custom-template-value": "自定义模板值",
       "delete-reasons": {
-        "heading": "",
-        "no-permissions": "",
-        "policies": "",
-        "provisioned": "",
-        "rules": ""
+        "heading": "删除原因",
+        "no-permissions": "没有权限",
+        "policies": "策略",
+        "provisioned": "配置",
+        "rules": "规则"
       },
-      "delivered-to": "",
-      "delivery-duration": "",
+      "delivered-to": "发送给",
+      "delivery-duration": "发送时间",
       "empty-state": {
-        "title": ""
+        "title": "没有联络点"
       },
       "key-value-map": {
-        "add": "",
-        "confirm-add": ""
+        "add": "添加",
+        "confirm-add": "确认添加"
       },
-      "last-delivery-attempt": "",
-      "last-delivery-failed": "",
-      "no-contact-points-found": "",
-      "no-delivery-attempts": "",
-      "no-integrations": "",
-      "only-firing": "",
+      "last-delivery-attempt": "最后发送尝试",
+      "last-delivery-failed": "最后发送失败",
+      "no-contact-points-found": "未找到联络点",
+      "no-delivery-attempts": "没有发送尝试",
+      "no-integrations": "没有集成",
+      "only-firing": "仅触发",
       "receiver-summary": {
-        "jira": ""
+        "jira": "Jira"
       },
       "telegram": {
-        "parse-mode-warning-body": "",
-        "parse-mode-warning-title": ""
+        "parse-mode-warning-body": "解析模式警告正文",
+        "parse-mode-warning-title": "解析模式警告标题"
       },
-      "used-by_other": "",
-      "used-by-rules_other": ""
+      "used-by_other": "被其他规则使用",
+      "used-by-rules_other": "被其他规则使用"
     },
     "contactPointFilter": {
       "label": ""
@@ -1002,81 +1002,31 @@
       "subtitle": "与此仪表板相关的警报规则"
     },
     "default-layout": {
-      "description": "",
+      "description": "默认布局",
+      "name": "默认",
       "item-options": {
         "repeat": {
           "direction": {
-            "horizontal": "",
-            "title": "",
-            "vertical": ""
+            "horizontal": "水平",
+            "title": "方向",
+            "vertical": "垂直"
           },
-          "max": "",
-          "title": "",
+          "max": "最大重复次数",
+          "title": "重复选项",
           "variable": {
-            "description": "",
-            "title": ""
+            "description": "选择要重复的变量",
+            "title": "变量"
           }
         }
-      },
-      "name": "",
-      "row-actions": {
-        "delete": "",
-        "modal": {
-          "alt-action": "",
-          "text": "",
-          "title": ""
-        }
-      },
-      "row-options": {
-        "button": {
-          "label": ""
-        },
-        "form": {
-          "cancel": "",
-          "repeat-for": {
-            "label": "",
-            "learn-more": "",
-            "warning": {
-              "text": ""
-            }
-          },
-          "title": "",
-          "update": ""
-        },
-        "modal": {
-          "title": ""
-        },
-        "repeat": {
-          "title": "",
-          "variable": {
-            "title": ""
-          }
-        },
-        "title": ""
       }
     },
     "edit-pane": {
       "elements": {
-        "dashboard": "",
-        "objects": "",
-        "panels": "",
-        "rows": "",
-        "tabs": ""
-      },
-      "objects": {
-        "multi-select": {
-          "selection-number": ""
-        }
-      },
-      "open": "",
-      "row": {
-        "header": {
-          "hide": "",
-          "title": ""
-        },
-        "multi-select": {
-          "title": ""
-        }
+        "dashboard": "仪表板",
+        "objects": "对象",
+        "panels": "面板",
+        "rows": "行",
+        "tabs": "标签页"
       }
     },
     "editpane": {
@@ -1425,7 +1375,7 @@
       "hide-time-picker": "隐藏时间选择器",
       "now-delay-description": "排除可能不完整的最近数据。",
       "now-delay-label": "现在延迟",
-      "refresh-live-dashboards-description": "连续重新绘制在其中时间范围引用“现在”的面板。",
+      "refresh-live-dashboards-description": "连续重新绘制在其中时间范围引用\"现在\"的面板。",
       "refresh-live-dashboards-label": "刷新直播仪表板",
       "time-options-label": "时间选项",
       "time-zone-label": "时区",
@@ -1593,7 +1543,7 @@
     },
     "rich-history-settings-tab": {
       "alert-info": "Grafana 将最多保留 {{optionLabel}} 的条目。标有星标的条目不会被删除。",
-      "change-default-tab": "将默认活动选项卡从“查询历史记录”更改为“星标”",
+      "change-default-tab": "将默认活动选项卡从\"查询历史记录\"更改为\"星标\"",
       "clear-history-info": "永久删除您所有的查询历史记录。",
       "clear-query-history": "清除查询历史记录",
       "clear-query-history-button": "清除查询历史记录",
@@ -2262,7 +2212,7 @@
       "verify-email-loading-label": ""
     },
     "layout": {
-      "update-password": ""
+      "update-password": "请修改您的密码"
     },
     "services": {
       "sing-in-with-prefix": "使用 {{serviceName}} 登录"
@@ -2346,7 +2296,7 @@
       "body-token": "自我管理的 Grafana 安装需要特殊访问权限才能安全迁移内容。您需要在所选云栈上创建一个迁移令牌。",
       "body-token-field": "迁移令牌",
       "body-token-field-placeholder": "在此粘贴令牌",
-      "body-token-instructions": "登录云堆栈，并导航至“管理”、“通用”、“迁移到 Grafana Cloud”。在该屏幕上创建迁移令牌，并将令牌粘贴到此处。",
+      "body-token-instructions": "登录云堆栈，并导航至\"管理\"、\"通用\"、\"迁移到 Grafana Cloud\"。在该屏幕上创建迁移令牌，并将令牌粘贴到此处。",
       "body-view-stacks": "查看我的云堆栈。",
       "cancel": "取消",
       "connect": "连接到这个堆栈",
@@ -2387,12 +2337,12 @@
       "body": "迁移过程必须从您自己管理的 Grafana 实例开始。",
       "configure-pdc-link": "配置此堆栈的 PDC",
       "link-title": "了解更多关于私人数据源连接的信息",
-      "step-1": "登录到您自己管理的实例，并导航到“管理”、“通用”、“迁移到 Grafana Cloud”。",
-      "step-2": "选择“将此实例迁移到云端”。",
+      "step-1": "登录到您自己管理的实例，并导航到\"管理\"、\"通用\"、\"迁移到 Grafana Cloud\"。",
+      "step-2": "选择\"将此实例迁移到云端\"。",
       "step-3": "系统将提示您输入迁移令牌。您可以从该屏幕生成一个。",
-      "step-4": "在您自己管理的实例中，选择“上传所有内容”，以将数据源和仪表盘上传到此云堆栈。",
+      "step-4": "在您自己管理的实例中，选择'上传所有内容'，以将数据源和仪表盘上传到此云堆栈。",
       "step-5": "如果某些数据源无法通过公共互联网运行，则需要在您自己管理的环境中安装专用数据源连接。",
-      "title": ""
+      "title": "迁移到云端"
     },
     "is-it-secure": {
       "body": "Grafana Labs 致力于维护最高标准的数据隐私和安全。通过实施行业标准的安全技术和程序，我们帮助保护客户的数据免遭未经授权的访问、使用或披露。",
@@ -2400,32 +2350,32 @@
       "title": "它是否安全？"
     },
     "migrate-to-this-stack": {
-      "body": "",
+      "body": "迁移过程必须从您自己管理的 Grafana 实例开始。",
       "link-title": "查看完整的迁移指南",
-      "title": ""
+      "title": "迁移到此堆栈"
     },
     "migrated-counts": {
-      "alert_rule_groups": "",
-      "alert_rules": "",
-      "contact_points": "",
-      "dashboards": "",
-      "datasources": "",
-      "folders": "",
-      "library_elements": "",
-      "mute_timings": "",
-      "notification_policies": "",
-      "notification_templates": "",
-      "plugins": ""
+      "alert_rule_groups": "警报规则组",
+      "alert_rules": "警报规则",
+      "contact_points": "联络点",
+      "dashboards": "仪表板",
+      "datasources": "数据源",
+      "folders": "文件夹",
+      "library_elements": "库元素",
+      "mute_timings": "静音时间",
+      "notification_policies": "通知策略",
+      "notification_templates": "通知模板",
+      "plugins": "插件"
     },
     "migration-token": {
-      "delete-button": "",
+      "delete-button": "删除",
       "delete-modal-body": "如果您已经在自己管理的安装中使用了此令牌，则该安装将无法再上传内容。",
       "delete-modal-cancel": "取消",
       "delete-modal-confirm": "删除",
       "delete-modal-deleting": "正在删除...",
       "delete-modal-title": "删除迁移令牌",
-      "error-body": "",
-      "error-title": "",
+      "error-body": "生成迁移令牌时出错",
+      "error-title": "生成迁移令牌时出错",
       "generate-button": "生成迁移令牌",
       "generate-button-loading": "正在生成迁移令牌...",
       "modal-close": "关闭",
@@ -2434,7 +2384,7 @@
       "modal-field-description": "现在就复制令牌，因为您将无法再次看到它。丢失令牌后需要创建一个新令牌。",
       "modal-field-label": "令牌",
       "modal-title": "已创建迁移令牌",
-      "status": ""
+      "status": "令牌已创建并激活"
     },
     "onprem": {
       "cancel-snapshot-error-title": "",
@@ -3843,7 +3793,7 @@
       "fiscal-year": "财政年度",
       "from-input": "发件人",
       "open-input-calendar": "打开日历",
-      "range-error": "“发件人”不能在“收件人”之后",
+      "range-error": "\"发件人\"不能在\"收件人\"之后",
       "to-input": "结束"
     },
     "range-picker": {
