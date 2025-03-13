@@ -41,7 +41,7 @@
     {
       "datasource": null,
       "gridPos": {
-        "h": 15,
+        "h": 0,
         "w": 12,
         "x": 12,
         "y": 4
@@ -53,6 +53,19 @@
       },
       "title": "Latest from the blog",
       "type": "news"
+    },
+    {
+      "datasource": null,
+      "gridPos": {
+        "h": 3,
+        "w": 4,
+        "x": 20,
+        "y": 0
+      },
+      "id": 5,
+      "title": "当前时间",
+      "type": "clock",
+      "transparent": true
     }
   ],
   "schemaVersion": 22,
@@ -71,5 +84,5 @@
     "type": "timepicker"
   },
   "timezone": "browser",
-  "title": "Home"
+  "title": "主页"
 }

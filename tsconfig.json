@@ -25,6 +25,7 @@
   "extends": "@grafana/tsconfig/base.json",
   "include": [
     "public/app/**/*.ts*",
+    "public/app/plugins/panel/clock/**/*.ts*",
     "public/swagger/**/*.ts*",
     "public/e2e-test/**/*.ts",
     "public/test/**/*.ts*",
